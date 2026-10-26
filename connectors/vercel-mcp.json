@@ -1,0 +1,14 @@
+{
+    "slug":  "vercel-mcp",
+    "type":  "connector",
+    "name":  "Vercel",
+    "description":  "Deployments, projects, and logs from Vercel through its hosted MCP endpoint.",
+    "version":  "1.0.0",
+    "source":  "https://github.com/vercel/vercel-mcp",
+    "tags":  [
+                 "mcp",
+                 "deploy"
+             ],
+    "url":  "https://mcp.vercel.com",
+    "authType":  "oauth"
+}
