@@ -90,6 +90,20 @@ Instructions the agent follows, in the imperative voice.
 - Descriptions are one sentence, customer-facing, and free of internal links.
 - Do not reference private or internal infrastructure.
 
+
+## Documentation
+
+The catalog contract â€” entry schema, auth shapes, versioning and review â€” is
+documented in [`docs/`](./docs/README.md):
+
+| Document | Covers |
+| --- | --- |
+| [Entry Schema](./docs/entry-schema.md) | Required and optional fields for each type |
+| [Submitting Entries](./docs/submitting-entries.md) | How to add a connector, skill or plugin |
+| [Connector Auth](./docs/connector-auth.md) | `authType` values and the HTTPS endpoint rule |
+| [Versioning and Deprecation](./docs/versioning-and-deprecation.md) | Changing an entry without breaking installs |
+| [Review Checklist](./docs/review-checklist.md) | What a reviewer checks, in order |
+| [FAQ](./docs/faq.md) | The questions we are asked most |
 ## License
 
 Catalog metadata is released under the MIT License. Each third-party connector
