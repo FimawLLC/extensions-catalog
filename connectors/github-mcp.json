@@ -1,0 +1,14 @@
+{
+    "slug":  "github-mcp",
+    "type":  "connector",
+    "name":  "GitHub",
+    "description":  "Repositories, issues, pull requests, and actions through the official GitHub MCP server.",
+    "version":  "1.0.0",
+    "source":  "https://github.com/github/github-mcp-server",
+    "tags":  [
+                 "mcp",
+                 "github"
+             ],
+    "url":  "https://api.githubcopilot.com/mcp/",
+    "authType":  "oauth"
+}
