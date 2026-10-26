@@ -1,0 +1,14 @@
+{
+    "slug":  "notion-mcp",
+    "type":  "connector",
+    "name":  "Notion",
+    "description":  "Search, read, and update Notion pages and databases through the official Notion MCP server.",
+    "version":  "1.0.0",
+    "source":  "https://github.com/makenotion/notion-mcp-server",
+    "tags":  [
+                 "mcp",
+                 "docs"
+             ],
+    "url":  "https://mcp.notion.com/mcp",
+    "authType":  "oauth"
+}
