@@ -1,4 +1,4 @@
-# Connector Auth
+﻿# Connector Auth
 
 A connector declares the shape of its authentication through `authType`, so a
 client can render the right setup flow from the entry alone, without a client
@@ -8,7 +8,7 @@ release.
 
 | `authType` | Use when | Secret lives |
 | --- | --- | --- |
-| `none` | The endpoint is open, or authentication is out of band | — |
+| `none` | The endpoint is open, or authentication is out of band | â€” |
 | `apikey` | The endpoint accepts a token or API key | per user |
 | `oauth` | The vendor issues tokens through a redirect flow | platform, per user |
 
@@ -76,3 +76,5 @@ connector that cannot be reached over TLS cannot be shipped.
 - [Entry Schema](./entry-schema.md)
 - [Submitting Entries](./submitting-entries.md)
 - [Review Checklist](./review-checklist.md)
+
+

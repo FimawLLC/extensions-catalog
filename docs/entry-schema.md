@@ -1,4 +1,4 @@
-# Entry Schema
+﻿# Entry Schema
 
 Every catalog entry is a structured record. This page lists the fields, which are
 required, and the rules a reviewer checks them against.
@@ -118,3 +118,5 @@ Write for the person installing it, not for the machine reading it.
 
 See [Submitting Entries](./submitting-entries.md) and
 [Review Checklist](./review-checklist.md).
+
+

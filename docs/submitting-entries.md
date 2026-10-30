@@ -1,4 +1,4 @@
-# Submitting Entries
+﻿# Submitting Entries
 
 ## The short version
 
@@ -8,7 +8,7 @@
 3. Open a pull request. Once merged, the entry appears in the marketplace on the
    next catalog refresh.
 
-Do not edit `catalog.json` by hand — it is generated from the per-type files.
+Do not edit `catalog.json` by hand â€” it is generated from the per-type files.
 
 ## Checklist
 
@@ -85,7 +85,7 @@ duplicate a member's content inside the plugin.
 
 A reviewer checks three things: that the entry validates, that the identity
 (slug and version) is sound, and that nothing in the entry asks for more access
-than it explains. Questions during review are normal — answer them in the pull
+than it explains. Questions during review are normal â€” answer them in the pull
 request, not in a new thread, so the discussion stays with the change.
 
 ## What gets an entry rejected
@@ -102,3 +102,5 @@ request, not in a new thread, so the discussion stays with the change.
 
 Open a **Q&A** discussion in this repository with the entry you are adding and the
 problem you hit.
+
+

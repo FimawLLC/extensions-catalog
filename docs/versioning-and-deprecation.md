@@ -1,4 +1,4 @@
-# Versioning and Deprecation
+﻿# Versioning and Deprecation
 
 An entry is executable intent. Treating it like a document that can be edited in
 place is how a workspace becomes non-reproducible.
@@ -26,7 +26,7 @@ version already published.
 
 ## Changing an entry
 
-| You want to… | Do |
+| You want toâ€¦ | Do |
 | --- | --- |
 | Fix a typo | Same slug, `patch` bump |
 | Add a tag | Same slug, `minor` bump |
@@ -51,15 +51,15 @@ depend on it. Removing it is a separate, announced step.
 > **Status.** A machine-readable `deprecated` marker is not part of the schema
 > yet. Until it is, deprecation is recorded in the pull request that retires the
 > entry and announced in
-> [Announcements](https://github.com/idexal/extensions-catalog/discussions/categories/announcements).
+> [Announcements](https://github.com/FimawLLC/extensions-catalog/discussions/categories/announcements).
 > The proposed shape is discussed in
-> [Ideas](https://github.com/idexal/extensions-catalog/discussions/categories/ideas).
+> [Ideas](https://github.com/FimawLLC/extensions-catalog/discussions/categories/ideas).
 
 ## Why this matters
 
-- **Reproducibility** — a workspace that worked yesterday still works today.
-- **Auditability** — you can say which version ran.
-- **Trust** — a user can accept an update deliberately, or pin and ignore it.
+- **Reproducibility** â€” a workspace that worked yesterday still works today.
+- **Auditability** â€” you can say which version ran.
+- **Trust** â€” a user can accept an update deliberately, or pin and ignore it.
 
 ## Open questions
 
@@ -67,3 +67,5 @@ These are live design questions:
 
 - Should a pinned version hard-fail or warn when it is withdrawn?
 - How long does a withdrawn version remain fetchable?
+
+

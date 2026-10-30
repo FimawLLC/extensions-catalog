@@ -1,4 +1,4 @@
-# Review Checklist
+﻿# Review Checklist
 
 What a reviewer checks, in order. Keeping this list close to the pull request
 template means fewer review round trips.
@@ -45,9 +45,11 @@ See [Versioning and Deprecation](./versioning-and-deprecation.md).
 | --- | --- |
 | Approved | Placement, identity, access and quality all check out |
 | Changes requested | A specific item above is unmet; the reviewer names which |
-| Rejected | The entry cannot be made acceptable as proposed — for example it takes a live slug |
+| Rejected | The entry cannot be made acceptable as proposed â€” for example it takes a live slug |
 
 ## A note on tone
 
 Review comments are about the entry, not the author. If an item above is unclear,
-say so — the checklist is itself improvable.
+say so â€” the checklist is itself improvable.
+
+

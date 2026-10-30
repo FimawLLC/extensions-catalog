@@ -1,6 +1,6 @@
-# idexal Os Extensions Catalog
+﻿# Fimaw Code Extensions Catalog
 
-The official, open catalog of extensions for **idexal Os**. Every entry here can
+The official, open catalog of extensions for **Fimaw Code**. Every entry here can
 be installed in one click from the in-app marketplace and is delivered to every
 desktop in an organization.
 
@@ -8,7 +8,7 @@ An *extension* is one of three kinds:
 
 | Type | Directory | What it is |
 | --- | --- | --- |
-| **Connector** | `connectors/` | A hosted or self-managed MCP endpoint (GitHub, Vercel, Notion, …). |
+| **Connector** | `connectors/` | A hosted or self-managed MCP endpoint (GitHub, Vercel, Notion, â€¦). |
 | **Skill** | `skills/` | A reusable `SKILL.md` instruction set an agent can follow. |
 | **Plugin** | `plugins/` | A bundle that installs one or more skills and connectors together. |
 
@@ -28,7 +28,7 @@ small, reviewable, and diff-friendly.
 ## Adding an extension
 
 1. Create a file in the matching directory named `<slug>.json` (or `.md` for
-   skills). The slug is lowercase, hyphen-separated, and stable — it becomes the
+   skills). The slug is lowercase, hyphen-separated, and stable â€” it becomes the
    public id desktops subscribe to.
 2. Fill in the required fields for that type (see below).
 3. Open a pull request. Once merged, the extension appears in the marketplace
@@ -92,7 +92,7 @@ Instructions the agent follows, in the imperative voice.
 
 ## Documentation
 
-The catalog contract — entry schema, auth shapes, versioning and review — is
+The catalog contract â€” entry schema, auth shapes, versioning and review â€” is
 documented in [`docs/`](./docs/README.md):
 
 | Document | Covers |
@@ -108,3 +108,5 @@ documented in [`docs/`](./docs/README.md):
 
 Catalog metadata is released under the MIT License. Each third-party connector
 remains governed by its own provider's terms.
+
+

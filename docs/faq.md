@@ -1,8 +1,8 @@
-# FAQ
+﻿# FAQ
 
 ### What is this repository for?
 
-It is the official, open catalog of extensions for idexal Os. Every entry here can
+It is the official, open catalog of extensions for Fimaw Code. Every entry here can
 be installed from the in-app marketplace and is delivered to every desktop in an
 organization. The marketplace serves `catalog.json`, which is generated from the
 per-type files.
@@ -57,14 +57,16 @@ user's machine.
 
 Once merged, the marketplace picks it up on the next catalog refresh. The
 platform's marketplace revision then advances, and desktops see it through the
-normal inventory sync —
-[Sync Contract](https://github.com/idexal/idexal-OS/blob/main/docs/sync-contract.md).
+normal inventory sync â€”
+[Sync Contract](https://github.com/FimawLLC/FimawCode/blob/main/docs/sync-contract.md).
 
-### My entry is rejected — where do I get help?
+### My entry is rejected â€” where do I get help?
 
 Open a **Q&A** discussion with the entry and the exact problem.
 
 ### Where do product questions go?
 
-[idexal Os discussions](https://github.com/idexal/idexal-OS/discussions). This
+[Fimaw Code discussions](https://github.com/FimawLLC/FimawCode/discussions). This
 repository is about the catalog.
+
+

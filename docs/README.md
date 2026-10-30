@@ -1,19 +1,19 @@
-# extensions-catalog documentation
+﻿# extensions-catalog documentation
 
 This repository is the canonical index of the **connectors**, **skills** and
-**plugins** that idexal Os can surface in the marketplace. The desktop app, the
+**plugins** that Fimaw Code can surface in the marketplace. The desktop app, the
 platform marketplace and the MCP gateway all read this catalog, so it is the one
 source of truth rather than a hand-maintained list per surface.
 
 Product-level questions about the app or the platform belong in the
-[idexal Os discussions](https://github.com/idexal/idexal-OS/discussions). These
+[Fimaw Code discussions](https://github.com/FimawLLC/FimawCode/discussions). These
 documents are about catalog entries and the catalog contract.
 
 ---
 
 ## Start here
 
-| If you want to… | Read |
+| If you want toâ€¦ | Read |
 | --- | --- |
 | Understand what an entry is | [Entry Schema](./entry-schema.md) |
 | Add a connector, skill or plugin | [Submitting Entries](./submitting-entries.md) |
@@ -41,18 +41,18 @@ one. If you take one thing from these documents, take that.
 ## How an entry reaches a user
 
 ```text
-you  ──▶  pull request  ──▶  review  ──▶  this repository
-                                             │
-                                             ▼
+you  â”€â”€â–¶  pull request  â”€â”€â–¶  review  â”€â”€â–¶  this repository
+                                             â”‚
+                                             â–¼
                               catalog.json (generated)
-                                             │
-                                             ▼
-                       marketplace  ──▶  desktop library / MCP gateway
+                                             â”‚
+                                             â–¼
+                       marketplace  â”€â”€â–¶  desktop library / MCP gateway
 ```
 
 Because the platform derives its marketplace revision from this catalog, a merged
-change becomes visible to desktops through the normal inventory sync —
-[idexal Os Sync Contract](https://github.com/idexal/idexal-OS/blob/main/docs/sync-contract.md).
+change becomes visible to desktops through the normal inventory sync â€”
+[Fimaw Code Sync Contract](https://github.com/FimawLLC/FimawCode/blob/main/docs/sync-contract.md).
 
 ## Conventions
 
@@ -60,3 +60,5 @@ change becomes visible to desktops through the normal inventory sync —
   Arabic-Indic numerals.
 - Descriptions are one sentence, customer-facing, and free of internal links.
 - Do not reference private or internal infrastructure.
+
+

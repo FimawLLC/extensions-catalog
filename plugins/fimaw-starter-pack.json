@@ -1,0 +1,18 @@
+﻿{
+    "slug":  "fimaw-starter-pack",
+    "type":  "plugin",
+    "name":  "Fimaw Code Starter Pack",
+    "description":  "The four official Fimaw Code skills bundled as one plugin, ready for every workspace in the organization.",
+    "version":  "1.0.0",
+    "source":  "https://github.com/FimawLLC/extensions-catalog",
+    "includes":  [
+                     "fimaw-gateway-cookbook",
+                     "fimaw-release-notes",
+                     "fimaw-arabic-quality",
+                     "fimaw-git-cleanup"
+                 ],
+    "tags":  [
+                 "starter",
+                 "official"
+             ]
+}
